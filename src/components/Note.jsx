@@ -1,14 +1,14 @@
 import React from "react";
 
-function createNote(note){
-    return(
-        <Note 
-        key={note.key}
-        noteTitle={note.title}
-        noteBody={note.content}    
-        />
-    )
-};
+// function createNote(note){
+//     return(
+//         <Note 
+//         key={note.key}
+//         noteTitle={note.title}
+//         noteBody={note.content}    
+//         />
+//     )
+// };
 
 function Note(props){
     return(
@@ -19,4 +19,4 @@ function Note(props){
     )
 };
 
-export default createNote;
+export default Note;
